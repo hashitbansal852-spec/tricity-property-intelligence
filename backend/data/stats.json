@@ -1,0 +1,8 @@
+{
+  "listings": 2480,
+  "localities": 27,
+  "r2": 0.93,
+  "mae": 6.4,
+  "modelName": "Random Forest",
+  "dataType": "synthetic"
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Predict | Tricity Property Intelligence</title>
+
+    <link rel="stylesheet" href="/predict.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Tricity Property Intelligence</h1>
+
+        <p class="subtitle">
+            Predict property prices across Chandigarh, Mohali and Panchkula.
+        </p>
+
+        <form id="question-form">
+
+            <div class="form-grid">
+
+                <div class="field">
+                    <label for="city">City</label>
+                    <select name="city" id="city" required>
+                        <option value="">Select City</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Panchkula">Panchkula</option>
+                        <option value="Mohali">Mohali</option>
+                        <option value="Kharar">Kharar</option>
+                        <option value="New Chandigarh">New Chandigarh</option>
+                        <option value="Zirakpur">Zirakpur</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="sector">Sector / Area</label>
+                    <select name="sector" id="sector" required>
+                        <option value="">Select Area</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="property_type">Property Type</label>
+                    <select name="property_type" id="property_type" required>
+                        <option value="">Select Property Type</option>
+                        <option value="Flat">Flat</option>
+                        <option value="Independent House">Independent House</option>
+                        <option value="Builder Floor">Builder Floor</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="bhk">BHK</label>
+                    <select name="bhk" id="bhk" required>
+                        <option value="">Select BHK</option>
+                        <option value="1">1 BHK</option>
+                        <option value="2">2 BHK</option>
+                        <option value="3">3 BHK</option>
+                        <option value="4">4 BHK</option>
+                        <option value="5">5 BHK</option>
+                        <option value="6">6 BHK</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="area_sqft">Area (Square Feet)</label>
+                    <input type="number" name="area_sqft" id="area_sqft"
+                        placeholder="Enter area in sq. ft." min="500" step="1" required>
+                </div>
+
+                <div class="field">
+                    <label for="bathrooms">Bathrooms</label>
+                    <select name="bathrooms" id="bathrooms" required>
+                        <option value="">Select Bathrooms</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="floor">Floor Number</label>
+                    <input type="number" name="floor" id="floor"
+                        placeholder="Enter floor number" min="0" required>
+                </div>
+
+                <div class="field">
+                    <label for="total_floors">Total Floors</label>
+                    <input type="number" name="total_floors" id="total_floors"
+                        placeholder="Total floors in building" min="1" required>
+                </div>
+
+                <div class="field">
+                    <label for="age_years">Property Age (Years)</label>
+                    <select name="age_years" id="age_years" required>
+                        <option value="">Select Property Age</option>
+                        <option value="0">New / Under Construction</option>
+                        <option value="2">0–5 Years</option>
+                        <option value="7">5–10 Years</option>
+                        <option value="12">10–15 Years</option>
+                        <option value="18">15–20 Years</option>
+                        <option value="25">20+ Years</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="furnishing">Furnishing</label>
+                    <select name="furnishing" id="furnishing" required>
+                        <option value="">Select Furnishing</option>
+                        <option value="Unfurnished">Unfurnished</option>
+                        <option value="Semi-Furnished">Semi-Furnished</option>
+                        <option value="Fully Furnished">Fully Furnished</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="parking">Parking Spaces</label>
+                    <select name="parking" id="parking" required>
+                        <option value="">Select Parking</option>
+                        <option value="0">No Parking</option>
+                        <option value="1">1 Car</option>
+                        <option value="2">2 Cars</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="gated_society">Gated Society</label>
+                    <select name="gated_society" id="gated_society" required>
+                        <option value="">Select</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="park_facing">Park Facing</label>
+                    <select name="park_facing" id="park_facing" required>
+                        <option value="">Select</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="corner_plot">Corner Property</label>
+                    <select name="corner_plot" id="corner_plot" required>
+                        <option value="">Select</option>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="dist_city_centre_km">Distance from City Centre (km)</label>
+                    <input type="number" name="dist_city_centre_km" id="dist_city_centre_km"
+                        placeholder="Distance in km" min="0.5" step="0.1" required>
+                </div>
+
+                <div class="field">
+                    <label for="dist_airport_km">Distance from Airport (km)</label>
+                    <input type="number" name="dist_airport_km" id="dist_airport_km"
+                        placeholder="Distance in km" min="1" step="0.1" required>
+                </div>
+
+            </div>
+
+            <button type="submit" id="sub_btn" class="btn-primary">
+                Predict Property Price
+            </button>
+
+        </form>
+
+        <div id="prediction-result" class="result" hidden>
+            <p class="result-label">Estimated price</p>
+            <p class="result-price" id="predicted-price"></p>
+            <p class="result-crore" id="predicted-crore"></p>
+            <p class="result-note">
+                ML-generated estimate from a synthetic dataset. Not a market valuation.
+            </p>
+        </div>
+
+        <p id="error-message" class="error-message" role="alert"></p>
+
+    </div>
+
+    <script src="/predict.js"></script>
+
+</body>
+
+</html>

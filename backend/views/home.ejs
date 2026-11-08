@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricity Property Intelligence</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Tricity Property Intelligence</h1>
+    <p>Demo using synthetic data</p>
+
+    <nav>
+        <a href="/predict">Predict</a> |
+        <a href="/compare">Compare</a> |
+        <a href="/map">Map</a> |
+        <a href="/history">History</a>
+    </nav>
+
+    <% if(stats){ %>
+        <h2>Summary</h2>
+        <p>listings : <%= stats.listings %>
+        </p>
+        <p>localities : <%= stats.localities %>
+        </p>
+        <p>Model R2: <%= stats.r2 %>
+        </p>
+        <p>Typical error: <%= stats.mae %> lakh</p>
+        <% } else { %>
+            <p>Stats are not available right now</p>
+            <% } %>
+
+
+                <h2>How it works</h2>
+                <ol>
+                    <li>Enter the property details.</li>
+                    <li>A machine learning model estimates the price.</li>
+                    <li>Your estimate is saved in your history.</li>
+                </ol>
+
+                <p>This project uses generated data. The model learns the rule used to create it,
+                    not the real property market.</p>
+
+</body>
+
+</html>

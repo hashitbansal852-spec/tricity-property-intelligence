@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compare Properties | Tricity Property Intelligence</title>
+
+    <link rel="stylesheet" href="/comparison.css">
+</head>
+
+<body class="compare-page">
+
+    <div class="compare-container">
+
+        <nav class="compare-nav">
+            <a href="/">Home</a>
+            <span>|</span>
+            <a href="/predict">Predict</a>
+            <span>|</span>
+            <a href="/history">History</a>
+            <span>|</span>
+            <a href="/map">Map</a>
+        </nav>
+
+        <header class="compare-header">
+            <h1>Property Comparison</h1>
+            <p>Compare two property predictions and understand their differences.</p>
+        </header>
+
+        <section class="compare-card">
+
+            <h2>Select Properties</h2>
+
+            <form id="compareForm">
+
+                <div class="compare-grid">
+
+                    <div class="field">
+                        <label for="propertyA">First Property ID</label>
+                        <input type="number" id="propertyA" name="a" placeholder="Enter first prediction ID" min="1"
+                            required>
+                    </div>
+
+                    <div class="field">
+                        <label for="propertyB">Second Property ID</label>
+                        <input type="number" id="propertyB" name="b" placeholder="Enter second prediction ID" min="1"
+                            required>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="compare-btn">
+                    Compare Properties
+                </button>
+
+            </form>
+
+            <p id="compareError" class="error-message"></p>
+
+        </section>
+
+        <section id="comparisonResult" class="comparison-result" hidden>
+
+            <h2>Comparison Results</h2>
+
+            <div class="property-grid">
+
+                <div class="property-card">
+                    <h3>Property A</h3>
+                    <div id="propertyAResult"></div>
+                </div>
+
+                <div class="property-card">
+                    <h3>Property B</h3>
+                    <div id="propertyBResult"></div>
+                </div>
+
+            </div>
+
+            <div class="difference-card">
+                <h3>Price Difference</h3>
+                <p id="priceDifference"></p>
+            </div>
+
+        </section>
+
+        <footer class="compare-footer">
+            <p>Tricity Property Intelligence | Experimental price estimates</p>
+        </footer>
+
+    </div>
+
+    <script src="/compare.js"></script>
+
+</body>
+
+</html>

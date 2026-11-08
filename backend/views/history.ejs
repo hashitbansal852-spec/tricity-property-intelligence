@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction History | Tricity Property Intelligence</title>
+
+    <link rel="stylesheet" href="/history.css">
+</head>
+
+<body class="history-page">
+
+    <div class="history-container">
+
+        <nav class="history-nav">
+            <a href="/">Home</a>
+            <span>|</span>
+            <a href="/predict">Predict</a>
+            <span>|</span>
+            <a href="/map">Map</a>
+            <span>|</span>
+            <a href="/compare">Compare</a>
+        </nav>
+
+        <header class="history-header">
+            <h1>Prediction History</h1>
+            <p>View and manage your previous property price predictions.</p>
+        </header>
+
+        <section class="history-card">
+
+            <div class="history-card-header">
+                <h2>Previous Predictions</h2>
+                <span class="record-count">
+                    <%= predictions.length %> Records
+                </span>
+            </div>
+
+            <% if (predictions.length===0) { %>
+
+                <div class="empty-state">
+                    <h3>No Predictions Yet</h3>
+                    <p>Your previous property predictions will appear here.</p>
+
+                    <a href="/predict" class="predict-link">
+                        Make Your First Prediction
+                    </a>
+                </div>
+
+                <% } else { %>
+
+                    <div class="table-wrapper">
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>City</th>
+                                    <th>Sector</th>
+                                    <th>Property Type</th>
+                                    <th>BHK</th>
+                                    <th>Area (sqft)</th>
+                                    <th>Predicted Price</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <% predictions.forEach(prediction=> { %>
+
+                                    <tr>
+                                        <td>#<%= prediction.id %>
+                                        </td>
+                                        <td>
+                                            <%= prediction.city %>
+                                        </td>
+                                        <td>
+                                            <%= prediction.sector %>
+                                        </td>
+                                        <td>
+                                            <%= prediction.property_type %>
+                                        </td>
+                                        <td>
+                                            <%= prediction.bhk %>
+                                        </td>
+                                        <td>
+                                            <%= prediction.area_sqft %>
+                                        </td>
+
+                                        <td class="price">
+                                            ₹<%= Number(prediction.predicted_price_lakh).toFixed(2) %> L
+                                        </td>
+
+                                        <td>
+                                            <%= new Date(prediction.created_at).toLocaleDateString("en-IN") %>
+                                        </td>
+                                    </tr>
+
+                                    <% }) %>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <% } %>
+
+        </section>
+
+        <footer class="history-footer">
+            <p>Tricity Property Intelligence | Experimental price estimates</p>
+        </footer>
+
+    </div>
+
+    <script src="/js/history.js"></script>
+
+</body>
+
+</html>

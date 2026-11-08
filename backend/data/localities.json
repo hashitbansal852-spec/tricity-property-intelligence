@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Sector 8, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 8",
+    "lat": 30.7417,
+    "lng": 76.79945,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 9, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 9",
+    "lat": 30.7474,
+    "lng": 76.79393,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 10, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 10",
+    "lat": 30.75419,
+    "lng": 76.78896,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 16, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 16",
+    "lat": 30.74676,
+    "lng": 76.77753,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 21, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 21",
+    "lat": 30.7269,
+    "lng": 76.77654,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 27, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 27",
+    "lat": 30.72275,
+    "lng": 76.79843,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 33, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 33",
+    "lat": 30.71413,
+    "lng": 76.77014,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 35, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 35",
+    "lat": 30.72612,
+    "lng": 76.75989,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 44, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 44",
+    "lat": 30.7129,
+    "lng": 76.75412,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Sector 46, Chandigarh",
+    "city": "Chandigarh",
+    "locality": "Sector 46",
+    "lat": 30.7014,
+    "lng": 76.76423,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Panchkula Sector 9",
+    "city": "Panchkula",
+    "locality": "Panchkula Sector 9",
+    "lat": 30.69383,
+    "lng": 76.84113,
+    "coordinate_source": "OpenStreetMap Sector 9–16 transit-stop area",
+    "coordinate_type": "approximate sector anchor"
+  },
+  {
+    "name": "Panchkula Sector 20",
+    "city": "Panchkula",
+    "locality": "Panchkula Sector 20",
+    "lat": 30.6654,
+    "lng": 76.8553,
+    "coordinate_source": "Published Sector 20 locality/postal coordinates",
+    "coordinate_type": "locality anchor"
+  },
+  {
+    "name": "Panchkula Extension",
+    "city": "Panchkula",
+    "locality": "Panchkula Extension",
+    "lat": 30.654,
+    "lng": 76.8805,
+    "coordinate_source": "Published Panchkula Extension postal locality coordinates",
+    "coordinate_type": "postal-area anchor"
+  },
+  {
+    "name": "Aerocity, Mohali",
+    "city": "Mohali",
+    "locality": "Aerocity",
+    "lat": 30.64624,
+    "lng": 76.75356,
+    "coordinate_source": "OpenStreetMap Aerocity C-Block park point",
+    "coordinate_type": "approximate locality anchor"
+  },
+  {
+    "name": "Mohali Sector 118",
+    "city": "Mohali",
+    "locality": "Mohali Sector 118",
+    "lat": 30.73317,
+    "lng": 76.6835,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Mohali Sector 70",
+    "city": "Mohali",
+    "locality": "Mohali Sector 70",
+    "lat": 30.69756,
+    "lng": 76.71487,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Mohali Sector 82",
+    "city": "Mohali",
+    "locality": "Mohali Sector 82",
+    "lat": 30.65497,
+    "lng": 76.73298,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Mohali Sector 88",
+    "city": "Mohali",
+    "locality": "Mohali Sector 88",
+    "lat": 30.68325,
+    "lng": 76.69139,
+    "coordinate_source": "OpenStreetMap via Mapcarta",
+    "coordinate_type": "locality point"
+  },
+  {
+    "name": "Kharar Landran Road",
+    "city": "Kharar",
+    "locality": "Kharar Landran Road",
+    "lat": 30.69485,
+    "lng": 76.66288,
+    "coordinate_source": "Published Kharar–Landran Road GPS point",
+    "coordinate_type": "road-area anchor"
+  },
+  {
+    "name": "Kharar Sunny Enclave",
+    "city": "Kharar",
+    "locality": "Kharar Sunny Enclave",
+    "lat": 30.743,
+    "lng": 76.67646,
+    "coordinate_source": "Mapped address in Sunny Enclave Sector 125",
+    "coordinate_type": "approximate locality anchor"
+  },
+  {
+    "name": "New Chandigarh (Mullanpur)",
+    "city": "New Chandigarh",
+    "locality": "New Chandigarh (Mullanpur)",
+    "lat": 30.82208,
+    "lng": 76.73598,
+    "coordinate_source": "Punjab Police published Omaxe Tower Mullanpur GPS point",
+    "coordinate_type": "approximate township anchor"
+  },
+  {
+    "name": "Zirakpur Patiala Road",
+    "city": "Zirakpur",
+    "locality": "Zirakpur Patiala Road",
+    "lat": 30.65515,
+    "lng": 76.82115,
+    "coordinate_source": "Published Patiala Chowk / Patiala Road GPS point",
+    "coordinate_type": "road-area anchor"
+  },
+  {
+    "name": "Zirakpur VIP Road",
+    "city": "Zirakpur",
+    "locality": "Zirakpur VIP Road",
+    "lat": 30.63486,
+    "lng": 76.81303,
+    "coordinate_source": "OpenStreetMap mapped address on VIP Road",
+    "coordinate_type": "road-area anchor"
+  }
+]
